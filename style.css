@@ -92,7 +92,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    width: 55%;
+    width: 50%;
+    margin: 2% 12%
 }
 button {
     background-color: black;
