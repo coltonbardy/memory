@@ -1,0 +1,143 @@
+body {
+    background: url("images/deathstar.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100vw;
+    perspective: 1200px;
+}
+header {
+    background-color: darkslategray;
+    border: 2px solid black;
+    border-radius: 10%;
+    text-align: center;
+    margin: 10px;
+}
+h2 {
+    margin: 0.8vw 8vw;
+}
+section {
+    background-color: darkslategray;
+    border: 2px solid black;
+    height: 40vh;
+    border-radius: 8%;
+    width: 20%;
+    float: right;
+    position: absolute;
+    top: 120px;
+    right:0;
+    margin-right: 1%;
+}
+header li {
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+aside li {
+    line-height: 1.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+li {
+    list-style-type: none;
+    display: block;
+}
+aside {
+    border: 2px solid black;
+    margin-right: 2%;
+    text-align: center;
+    line-height: 2.5em;
+    height: 40vh;
+    background-color: darkslategray;
+    border-radius: 8%;
+    width: 22%;
+    float: right;
+
+}
+.card {
+    position: relative;
+    height: 200px;
+    width: 150px;
+    transition-duration: .8s;
+    transform-style: preserve-3d;
+}
+.front, .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.front{
+    transform: rotate3D(0,1,0,180deg);
+    z-index: 1;
+}
+.back{
+    z-index: 0;
+    backface-visibility: hidden;
+}
+.back img, .front img {
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+.flipcard{
+    transform: rotate3D(0,1,0,180deg);
+}
+main {
+    cursor: crosshair;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 55%;
+}
+button {
+    background-color: black;
+    color: white;
+    border: .5px solid black;
+    font-size: 15px;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    font-style: italic;
+}
+#title{
+    font-size: 8em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#hp-container {
+    font-size: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.stats-header {
+    font-size: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+.reset {
+    margin-top: 20px;
+    height: 2em;
+    width: 8em;
+    background: black;
+    color: #555;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.reset:hover {
+    background: #333;
+    color: black;
+    text-decoration: none;
+}
