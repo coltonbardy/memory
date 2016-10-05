@@ -158,7 +158,7 @@ function card_clicked(current) {
 
 function randomize_cards() {
       var images = [
-            'images/2.jpg', 'images/2.jpg','images/4.jpg','images/4.jpg','images/7.jpg','images/7.jpg','images/8.jpg','images/8.jpg','images/8-1.jpg','images/8-1.jpg','images/10.jpg','images/10.jpg','images/3.jpg','images/3.jpg','images/7-1.jpg','images/7-1.jpg','images/queen.jpg','images/queen.jpg'];
+            'images/boba-fett-star-wars-stencil.jpg', 'images/boba-fett-star-wars-stencil.jpg', 'images/c3po-stencil.jpg', 'images/c3po-stencil.jpg', 'images/han-solo-stencil.jpg','images/han-solo-stencil.jpg','images/luke-skywalker-stencil.jpg','images/luke-skywalker-stencil.jpg','images/princess-leia-stencil.jpg','images/princess-leia-stencil.jpg','images/r2d2-stencil.jpg','images/r2d2-stencil.jpg','images/tie-fighter-stencil.jpg','images/tie-fighter-stencil.jpg','images/x-wing-stencil.jpg','images/x-wing-stencil.jpg','images/Darth-Vader-Stencil-thumb.jpg','images/Darth-Vader-Stencil-thumb.jpg'];
 
       var slots = images.length;
       var imagesCopy = [];

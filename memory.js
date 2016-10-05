@@ -10,7 +10,7 @@ var attempts = 0;
 var accuracy = 0;
 var games_played = 0;
 
-var cards= ['images/2.jpg', 'images/2.jpg','images/4.jpg','images/4.jpg','images/7.jpg','images/7.jpg','images/8.jpg','images/8.jpg','images/8-1.jpg','images/8-1.jpg','images/10.jpg','images/10.jpg','images/3.jpg','images/3.jpg','images/7-1.jpg','images/7-1.jpg','images/queen.jpg','images/queen.jpg'];
+var cards= ['images/boba-fett-star-wars-stencil.jpg', 'images/boba-fett-star-wars-stencil.jpg','images/c3po-stencil.jpg','images/c3po-stencil.jpg','images/7.jpg','images/7.jpg','images/8.jpg','images/8.jpg','images/8-1.jpg','images/8-1.jpg','images/10.jpg','images/10.jpg','images/3.jpg','images/3.jpg','images/7-1.jpg','images/7-1.jpg','images/queen.jpg','images/queen.jpg'];
 
 var imageSrc = cards[index];
 
